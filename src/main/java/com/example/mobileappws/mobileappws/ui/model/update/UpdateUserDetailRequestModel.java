@@ -1,6 +1,7 @@
 package com.example.mobileappws.mobileappws.ui.model.update;
 
-import jakarta.validation.constraints.NotNull;
+
+import javax.validation.constraints.NotNull;
 
 public class UpdateUserDetailRequestModel {
     @NotNull(message = "First name cannot be empty")
